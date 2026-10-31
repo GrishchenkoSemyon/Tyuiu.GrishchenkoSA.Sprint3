@@ -11,7 +11,7 @@ namespace Tyuiu.GrishchenkoSA.Sprint3.Task1.V24.Test
         {
             DataService ds = new DataService();
             var res = ds.GetSumSeries(5, 1, 12);
-            Assert.AreEqual(0.222, res, 0.001);
+            Assert.AreEqual(0.186, res, 0.001);
         }
     }
 }

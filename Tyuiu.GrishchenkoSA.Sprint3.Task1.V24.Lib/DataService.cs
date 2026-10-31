@@ -11,7 +11,7 @@ namespace Tyuiu.GrishchenkoSA.Sprint3.Task1.V24.Lib
 int i = startValue;
 while (i <= stopValue)
 {
-    sum += Math.Pow(2.0 / (6 + value), i);
+    sum += Math.Pow(2.0 / (6 + Math.Pow(value, i)), i);
     i++;
 }
 return Math.Round(sum, 3);

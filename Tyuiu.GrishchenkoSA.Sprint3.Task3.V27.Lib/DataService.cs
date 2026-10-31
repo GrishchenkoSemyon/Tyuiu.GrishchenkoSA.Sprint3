@@ -7,15 +7,15 @@ namespace Tyuiu.GrishchenkoSA.Sprint3.Task3.V27.Lib
     {
         public int ConvertStringToInt(string value)
         {
-            string str = "";
+            string result = "";
 foreach (char c in value)
 {
     if (char.IsDigit(c))
     {
-        str = str + c;
+        result += c;
     }
 }
-return Convert.ToInt32(str);
+return Convert.ToInt32(result);
         }
     }
 }
